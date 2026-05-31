@@ -1,0 +1,54 @@
+baseURL = "https://blog.ib.georgshost.eu/"
+languageCode = "de-AT"
+title = "IB-Abrechnung — Steuer-Guides für IBKR-User in Österreich"
+theme = "PaperMod"
+enableRobotsTXT = true
+enableEmoji = true
+pagination.pagerSize = 10
+
+[params]
+  description = "Praktische Anleitungen zur E1kv-Beilage, KESt-Klassifikation und IBKR-FlexQuery — speziell für österreichische Privatanleger."
+  author = "IB-Abrechnung"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = true
+  ShowLastMod = true
+  disableScrollToTop = false
+
+  [params.homeInfoParams]
+    Title = "Steuer-Guides für IBKR-User in Österreich"
+    Content = """
+Praktische Anleitungen zur **Beilage E1kv „ohne KESt-Abzug"**, Kennzahlen-Zuordnung
+(KZ 863, 994, 892, 995, 896, 861, 998) und IBKR-FlexQuery-Setup — speziell für
+österreichische Privatanleger mit Interactive-Brokers-Konto.
+
+→ Wer das **automatisiert** haben will: [IB-Abrechnung](https://ib.georgshost.eu) liest
+die FlexQuery direkt aus und liefert die fertige E1kv-Beilage als PDF.
+"""
+
+[params.assets]
+  disableHLJS = false
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 3
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[menu]
+  [[menu.main]]
+    name = "Guides"
+    url = "/posts/"
+    weight = 10
+  [[menu.main]]
+    name = "Tool"
+    url = "https://ib.georgshost.eu"
+    weight = 20

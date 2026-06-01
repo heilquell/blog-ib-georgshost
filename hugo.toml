@@ -1,6 +1,6 @@
-baseURL = "https://blog.ib.georgshost.eu/"
+baseURL = "https://blog.depottax.at/"
 languageCode = "de-AT"
-title = "IB-Abrechnung — Steuer-Guides für IBKR-User in Österreich"
+title = "DepotTax — Steuer-Guides für IBKR-User in Österreich"
 theme = "PaperMod"
 enableRobotsTXT = true
 enableEmoji = true
@@ -8,7 +8,7 @@ pagination.pagerSize = 10
 
 [params]
   description = "Praktische Anleitungen zur E1kv-Beilage, KESt-Klassifikation und IBKR-FlexQuery — speziell für österreichische Privatanleger."
-  author = "IB-Abrechnung"
+  author = "DepotTax"
   defaultTheme = "auto"
   ShowReadingTime = true
   ShowShareButtons = false
@@ -26,7 +26,7 @@ Praktische Anleitungen zur **Beilage E1kv „ohne KESt-Abzug"**, Kennzahlen-Zuor
 (KZ 863, 994, 892, 995, 896, 861, 998) und IBKR-FlexQuery-Setup — speziell für
 österreichische Privatanleger mit Interactive-Brokers-Konto.
 
-→ Wer das **automatisiert** haben will: [IB-Abrechnung](https://ib.georgshost.eu) liest
+→ Wer das **automatisiert** haben will: [DepotTax](https://depottax.at) liest
 die FlexQuery direkt aus und liefert die fertige E1kv-Beilage als PDF.
 """
 
@@ -50,5 +50,5 @@ die FlexQuery direkt aus und liefert die fertige E1kv-Beilage als PDF.
     weight = 10
   [[menu.main]]
     name = "Tool"
-    url = "https://ib.georgshost.eu"
+    url = "https://depottax.at"
     weight = 20

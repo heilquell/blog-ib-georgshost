@@ -135,7 +135,7 @@ Im selben Create-Dialog, unter den Sections:
 
 ### Automatisierung über die Flex Web Service API
 
-Wenn Du das Tool [IB-Abrechnung](#tool) verwendest, brauchst Du keinen manuellen Download. Du legst die FlexQuery einmal an und erzeugst einen **Token** (Settings → Reporting → Flex Web Service → Configure). Das Tool zieht sich die XML dann jeden Nacht automatisch.
+Wenn Du das Tool [DepotTax](#tool) verwendest, brauchst Du keinen manuellen Download. Du legst die FlexQuery einmal an und erzeugst einen **Token** (Settings → Reporting → Flex Web Service → Configure). Das Tool zieht sich die XML dann jeden Nacht automatisch.
 
 ---
 
@@ -165,7 +165,7 @@ Du hast die Query vor Jahresende erstellt und IBKR interpretiert „Last Year" r
 
 Wenn Du nicht jedes Jahr durch diese Section-Checkliste musst:
 
-> 🛠 **[IB-Abrechnung](https://ib.georgshost.eu)** liest Deine Activity Flex Query ein und erzeugt die E1kv-Beilage direkt — inkl. AT-konformer Avg-Cost-Berechnung, DBA-Quellensteuer-Cap pro Land und PDF für den Steuerberater. Du kannst entweder die XML manuell hochladen oder über den **Flex Web Service Token** automatisch synchronisieren lassen.
+> 🛠 **[DepotTax](https://depottax.at)** liest Deine Activity Flex Query ein und erzeugt die E1kv-Beilage direkt — inkl. AT-konformer Avg-Cost-Berechnung, DBA-Quellensteuer-Cap pro Land und PDF für den Steuerberater. Du kannst entweder die XML manuell hochladen oder über den **Flex Web Service Token** automatisch synchronisieren lassen.
 
 Aktuell in geschlossener Beta. Melde Dich falls Du dabei sein willst.
 

@@ -175,7 +175,7 @@ IE-Z |  -82,07 €             | 0 %     |    0,00 € (EU-Zinsrichtlinie)
 
 Wenn Du das **jedes Jahr** ausfüllen musst, lohnt sich ein automatisiertes Tool:
 
-> 🛠 **[IB-Abrechnung](https://ib.georgshost.eu)** liest Deine IBKR-FlexQuery automatisch und generiert:
+> 🛠 **[DepotTax](https://depottax.at)** liest Deine IBKR-FlexQuery automatisch und generiert:
 > - Die exakten E1kv-Kennzahlen (KZ 863, 994, 892, 995, 896, 861, 998)
 > - PDF-Beilage als Beleg für den Steuerberater
 > - Excel-Detail-Auswertung pro Trade

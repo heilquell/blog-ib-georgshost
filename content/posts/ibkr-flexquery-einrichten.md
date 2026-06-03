@@ -169,10 +169,6 @@ Wenn Du nicht jedes Jahr durch diese Section-Checkliste musst:
 
 Aktuell in geschlossener Beta. Melde Dich falls Du dabei sein willst.
 
----
-
-**Disclaimer:** Keine Steuerberatung. Bei komplexen Situationen (Vorjahres-Übertrag von einem anderen Broker, internationale Wegzugsbesteuerung, Betriebsvermögen) → Steuerberater.
-
 ### Verwandte Guides
 
 - [E1kv ausfüllen für IBKR-User (Österreich 2026)](./e1kv-ausfuellen-ibkr/) — der nächste Schritt nach dem FlexQuery-Setup

@@ -185,10 +185,6 @@ Aktuell in geschlossener Beta für Friends-and-Family. Wenn Du Interesse hast �
 
 ---
 
-**Disclaimer:** Diese Anleitung ist Hobby-Wissen, **keine Steuerberatung**. Verbindlich ist die Auskunft Deines Steuerberaters bzw. der Finanzbehörde. Bei großen Beträgen oder strittigen Klassifikationen (Optionen / Zinsen) Steuerberater konsultieren.
-
----
-
 ### Verwandte Guides
 
 - [KZ 863 vs KZ 994 — wo trage ich was ein?](/posts/kz-863-vs-kz-994/)

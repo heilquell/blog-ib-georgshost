@@ -1,0 +1,16 @@
+{{- /* Standard-Disclaimer am Ende jedes Posts. Wird unterdrueckt, wenn im
+       Front-Matter `disableDisclaimer: true` gesetzt ist. */ -}}
+{{- if not (.Param "disableDisclaimer") }}
+<aside class="post-disclaimer" style="margin-top:32px; padding:14px 18px;
+            border-left:3px solid #d29922; background:#1f1a00;
+            color:#c9d1d9; font-size:13px; line-height:1.6; border-radius:4px;">
+  <strong style="color:#d29922;">Hinweis:</strong>
+  Dieser Beitrag ist eine allgemein verständliche Erläuterung steuerlicher
+  Themen und <strong>keine individuelle Steuerberatung</strong>. Er ersetzt
+  weder die Beratung durch einen befugten Steuerberater noch die verbindliche
+  Auskunft der zuständigen Finanzbehörde. Für die Richtigkeit, Vollständigkeit
+  und Aktualität der Inhalte wird trotz sorgfältiger Recherche
+  <strong>keine Haftung übernommen</strong>. Bei konkreten Fragen oder
+  größeren Beträgen einen Steuerberater konsultieren.
+</aside>
+{{- end }}

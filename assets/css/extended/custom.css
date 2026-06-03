@@ -1,0 +1,32 @@
+/* Post-Title: editorial Look mit farbigem Akzent-Block links.
+   Description bekommt dezenten Italic-Akzent als visuelle Einheit. */
+
+.post-title {
+    font-size: 44px;
+    line-height: 1.15;
+    font-weight: 700;
+    padding-left: 14px;
+    border-left: 5px solid #d29922;
+    margin-bottom: 18px;
+}
+
+.post-description {
+    font-style: italic;
+    color: var(--secondary);
+    padding-left: 14px;
+    border-left: 1px solid var(--border);
+    margin-top: 6px;
+    line-height: 1.55;
+}
+
+/* Auf engeren Viewports etwas kleiner, damit der Title nicht erschlaegt */
+@media (max-width: 520px) {
+    .post-title {
+        font-size: 34px;
+        padding-left: 10px;
+        border-left-width: 4px;
+    }
+    .post-description {
+        padding-left: 10px;
+    }
+}

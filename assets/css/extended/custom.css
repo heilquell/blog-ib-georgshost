@@ -2,31 +2,38 @@
    Description bekommt dezenten Italic-Akzent als visuelle Einheit. */
 
 .post-title {
-    font-size: 44px;
-    line-height: 1.15;
-    font-weight: 700;
-    padding-left: 14px;
-    border-left: 5px solid #d29922;
-    margin-bottom: 18px;
+    font-size: 56px;
+    line-height: 1.08;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    padding-left: 20px;
+    border-left: 8px solid #d29922;
+    margin-top: 28px;
+    margin-bottom: 22px;
 }
 
 .post-description {
     font-style: italic;
+    font-size: 17px;
     color: var(--secondary);
-    padding-left: 14px;
-    border-left: 1px solid var(--border);
-    margin-top: 6px;
+    padding: 8px 14px;
+    border-left: 2px solid var(--tertiary);
+    background: color-mix(in srgb, #d29922 6%, transparent);
+    margin-top: 4px;
     line-height: 1.55;
+    border-radius: 0 4px 4px 0;
 }
 
 /* Auf engeren Viewports etwas kleiner, damit der Title nicht erschlaegt */
 @media (max-width: 520px) {
     .post-title {
-        font-size: 34px;
-        padding-left: 10px;
-        border-left-width: 4px;
+        font-size: 38px;
+        padding-left: 14px;
+        border-left-width: 6px;
+        margin-top: 20px;
     }
     .post-description {
         padding-left: 10px;
+        font-size: 15px;
     }
 }

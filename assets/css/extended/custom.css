@@ -1,39 +1,60 @@
-/* Post-Title: editorial Look mit farbigem Akzent-Block links.
-   Description bekommt dezenten Italic-Akzent als visuelle Einheit. */
+/* Blog-Liste auf der Startseite: Karten bekommen einen dezenten
+   Goldgelb-Akzent-Block links als visuelles Anker, Titel wird groesser
+   und claimable, Description italic mit etwas mehr Atemraum. */
 
-.post-title {
-    font-size: 56px;
-    line-height: 1.08;
-    font-weight: 800;
-    letter-spacing: -0.02em;
-    padding-left: 20px;
-    border-left: 8px solid #d29922;
-    margin-top: 28px;
-    margin-bottom: 22px;
+.post-entry {
+    border-left: 4px solid var(--border);
+    transition: transform 0.25s ease, border-color 0.25s ease;
 }
 
-.post-description {
+.post-entry:hover,
+.post-entry:focus-within {
+    border-left-color: #d29922;
+    border-color: #d29922;
+    transform: translateY(-2px);
+}
+
+.post-entry .entry-header h2 {
+    font-size: 26px;
+    line-height: 1.25;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.post-entry .entry-content {
     font-style: italic;
-    font-size: 17px;
-    color: var(--secondary);
-    padding: 8px 14px;
-    border-left: 2px solid var(--tertiary);
-    background: color-mix(in srgb, #d29922 6%, transparent);
-    margin-top: 4px;
+    font-size: 15px;
     line-height: 1.55;
-    border-radius: 0 4px 4px 0;
+    color: var(--secondary);
+    -webkit-line-clamp: 3;
 }
 
-/* Auf engeren Viewports etwas kleiner, damit der Title nicht erschlaegt */
+/* First-Entry (oberster Eintrag) bekommt mehr visuelles Gewicht */
+.first-entry .entry-header h1,
+.first-entry .entry-header h2 {
+    border-left: 6px solid #d29922;
+    padding-left: 16px;
+    font-weight: 800;
+    line-height: 1.1;
+}
+
+.first-entry .entry-content {
+    font-style: italic;
+    color: var(--secondary);
+    padding-left: 16px;
+    border-left: 1px solid var(--border);
+}
+
 @media (max-width: 520px) {
-    .post-title {
-        font-size: 38px;
-        padding-left: 14px;
-        border-left-width: 6px;
-        margin-top: 20px;
+    .post-entry .entry-header h2 {
+        font-size: 22px;
     }
-    .post-description {
-        padding-left: 10px;
-        font-size: 15px;
+    .first-entry .entry-header h1,
+    .first-entry .entry-header h2 {
+        padding-left: 12px;
+        border-left-width: 5px;
+    }
+    .first-entry .entry-content {
+        padding-left: 12px;
     }
 }

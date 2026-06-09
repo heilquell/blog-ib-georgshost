@@ -74,7 +74,11 @@ Mit anderen Worten: Beilage E1kv komplett ausfüllen. Auch wenn der Broker beque
 
 Ein normales IBKR-Konto generiert über ein Jahr leicht **mehrere hundert Realisations-Ereignisse**, dazu Dividenden, Quellensteuern in fünf bis zehn Ländern, Cash-Zinsen, Corporate Actions (Splits, Spin-Offs), Forex-Bewegungen. Per Hand in Excel ist das machbar, aber dauert Tage und ist fehleranfällig. Wenn Du Familie und Beruf hast, ist die naheliegende Alternative ein spezialisiertes Tool, das den FlexQuery-Export von IBKR (oder das CSV-Statement von FFB) liest, FIFO oder Durchschnittsmethode rechnet, die OeKB-Meldefonds-Datenbank abfragt und die fertigen Kennzahlen für FinanzOnline ausspuckt.
 
-Genau dafür haben wir [DepotTax](https://depottax.at) gebaut. Du lädst Deinen IBKR-FlexQuery hoch (oder verbindest API-Token für automatischen Nightly-Pull), und am Ende bekommst Du eine PDF/Excel-Aufstellung mit jeder KZ und einer Erklärung pro Position. Auch CapTrader, LYNX, FFB werden unterstützt. <a id="tool"></a>
+<div class="dt-callout dt-callout-tool" id="tool">
+
+**Genau dafür haben wir [DepotTax](https://depottax.at) gebaut.** Du lädst Deinen IBKR-FlexQuery hoch (oder verbindest API-Token für automatischen Nightly-Pull), und am Ende bekommst Du eine PDF/Excel-Aufstellung mit jeder KZ und einer Erklärung pro Position. Auch CapTrader, LYNX, FFB werden unterstützt.
+
+</div>
 
 ## Zusammengefasst in einer Zeile
 

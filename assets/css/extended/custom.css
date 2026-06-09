@@ -58,3 +58,92 @@
         padding-left: 12px;
     }
 }
+
+/* ============================================================
+   Branded Callout-Boxen — depottax-Blau (#0969da / #58a6ff)
+   Verwendung in Posts via Shortcode {{< callout >}} ... {{< /callout >}}
+   oder direkt im Markdown:
+       <div class="dt-callout dt-callout-tool">
+       **Mit dem Tool:** ... [zu DepotTax](https://depottax.at)
+       </div>
+   ============================================================ */
+
+.dt-callout {
+    margin: 28px 0;
+    padding: 18px 22px;
+    border-radius: 8px;
+    border-left: 4px solid var(--callout-accent, #0969da);
+    background: var(--callout-bg, #f0f6ff);
+    color: var(--callout-text, #1f2328);
+    line-height: 1.6;
+    font-size: 15.5px;
+}
+
+.dt-callout p:first-child { margin-top: 0; }
+.dt-callout p:last-child  { margin-bottom: 0; }
+
+.dt-callout a {
+    color: var(--callout-accent, #0969da);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+/* Variante: Tool-CTA (Default-Blau) */
+.dt-callout-tool {
+    --callout-accent: #0969da;
+    --callout-bg: #f0f6ff;
+}
+
+/* Variante: Tipp / Hintergrundwissen (sanftes Grün-Blau) */
+.dt-callout-tip {
+    --callout-accent: #1a7f37;
+    --callout-bg: #f0fbf4;
+}
+
+/* Variante: Achtung / Falle (warmes Amber) */
+.dt-callout-warn {
+    --callout-accent: #bf8700;
+    --callout-bg: #fff8e0;
+}
+
+/* Dark-Mode-Anpassung */
+.dark .dt-callout,
+html[data-theme="dark"] .dt-callout {
+    --callout-text: #c9d1d9;
+}
+.dark .dt-callout-tool,
+html[data-theme="dark"] .dt-callout-tool {
+    --callout-accent: #58a6ff;
+    --callout-bg: #0f1a2e;
+}
+.dark .dt-callout-tip,
+html[data-theme="dark"] .dt-callout-tip {
+    --callout-accent: #3fb950;
+    --callout-bg: #0c1f15;
+}
+.dark .dt-callout-warn,
+html[data-theme="dark"] .dt-callout-warn {
+    --callout-accent: #d29922;
+    --callout-bg: #1f1a00;
+}
+
+/* ============================================================
+   Byline unter dem Post-Titel — "Geschrieben für DepotTax"
+   ============================================================ */
+.post-byline {
+    display: inline;
+    color: var(--secondary);
+}
+.post-byline a {
+    color: var(--secondary);
+    border-bottom: 1px dotted var(--border);
+}
+.post-byline a:hover {
+    color: #0969da;
+    border-bottom-color: #0969da;
+}
+.dark .post-byline a:hover,
+html[data-theme="dark"] .post-byline a:hover {
+    color: #58a6ff;
+    border-bottom-color: #58a6ff;
+}

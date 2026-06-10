@@ -1,3 +1,22 @@
+{{- /* App-CTA am Ende jedes Posts. Wird unterdrueckt, wenn im
+       Front-Matter `disableAppCta: true` gesetzt ist. */ -}}
+{{- if not (.Param "disableAppCta") }}
+<aside class="post-app-cta" style="margin-top:32px; padding:18px 22px;
+            border-left:3px solid #2f81f7; background:var(--entry);
+            color:var(--primary); font-size:14px; line-height:1.6; border-radius:4px;">
+  <strong style="color:#2f81f7;">→ Lieber automatisch?</strong>
+  <a href="https://depottax.at" target="_blank" rel="noopener noreferrer"
+     style="color:#2f81f7; font-weight:600;">DepotTax</a>
+  liest deine IBKR-FlexQuery direkt aus und liefert die fertige
+  <strong>E1kv-Beilage als PDF</strong> — inkl. KZ-Mapping (863/994/892/995/896/998/937),
+  Avg-Cost nach AT-Pflichtmethode, AW-Korrektur für thesaurierende Fonds
+  und KESt-Verlustausgleich pro Topf. Aktuell in <em>geschlossener Beta</em>;
+  Zugang via Mail an
+  <a href="mailto:milosiland@gmail.com?subject=Zugang%20DepotTax%20Beta"
+     style="color:#2f81f7;">milosiland@gmail.com</a>.
+</aside>
+{{- end }}
+
 {{- /* Standard-Disclaimer am Ende jedes Posts. Wird unterdrueckt, wenn im
        Front-Matter `disableDisclaimer: true` gesetzt ist. */ -}}
 {{- if not (.Param "disableDisclaimer") }}
